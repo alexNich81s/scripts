@@ -118,7 +118,7 @@ my $depsDir = 'c:\Users\ean\Downloads\krita-deps\deps-install';
 # the path to MinGW installation
 my $mingwDir = 'c:\dev\msys64\mingw64';
 # the path to your Python 3.6
-my $pythonDir = 'c:\dev\msys64\usr\lib\python3.8'; # krita-dep's python build does not seem to consider PYTHONPATH
+my $pythonDir = 'c:\Users\ean\AppData\Local\Programs\Python\Python38'; # krita-dep's python build does not seem to consider PYTHONPATH
 # the directory to install krita
 my $kritaInstallDir = 'c:/Home/Programs/krita-testing';
 # krita source directory
