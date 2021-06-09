@@ -114,11 +114,11 @@ sub ln {
 ### Config Part -- change as needed
 # the directory extracted from krita-deps.zip
 # you should have downloaded it from https://binary-factory.kde.org/job/Krita_Nightly_Windows_Dependency_Build/
-my $depsDir = 'c:/Home/Programs/krita-deps/deps-install';
+my $depsDir = 'c:\Users\ean\Downloads\krita-deps\deps-install';
 # the path to MinGW installation
-my $mingwDir = 'c:/Home/Programs/msys64/mingw64';
+my $mingwDir = 'c:\dev\msys64\mingw64';
 # the path to your Python 3.6
-my $pythonDir = 'c:/Home/Programs/python3'; # krita-dep's python build does not seem to consider PYTHONPATH
+my $pythonDir = 'c:\dev\msys64\usr\lib\python3.8'; # krita-dep's python build does not seem to consider PYTHONPATH
 # the directory to install krita
 my $kritaInstallDir = 'c:/Home/Programs/krita-testing';
 # krita source directory
@@ -128,7 +128,7 @@ my $kritaBuildDir = 'c:/Home/Code/krita-build';
 # how many jobs can we run at the same time
 my $jobs = 3;
 # whether to build tests
-my $tests = 1;
+my $tests = 0;
 ### End config part
 
 # Chances are MinGW has a higher version of Python, which we do not want.
